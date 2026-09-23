@@ -104,3 +104,8 @@ int main(void) {
     printf("--- Butun testler basariyla gecti! ---\n");
     return 0;
 }
+
+void test_null_pointers(void) {
+    uint8_t buffer[64];
+    assert(encode_telemetry_packet(NULL, buffer, 64) == PROTOCOL_ERR_NULL_PTR);
+}
