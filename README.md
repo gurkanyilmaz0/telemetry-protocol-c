@@ -1,8 +1,8 @@
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 # Telemetry Protocol Library (C99)
 
-This repository contains a lightweight, custom telemetry protocol library written in C. It is designed for embedded systems, UAVs (Unmanned Aerial Vehicles), and ground control stations to communicate efficiently and reliably over serial, UDP, or other data links.xxssllaasa
-
+This repository contains a lightweight, custom telemetry protocol library written in C. It is designed for embedded systems, UAVs (Unmanned Aerial Vehicles), and ground control stations to communicate efficiently and reliably over serial, UDP, or other data links.xxssllaasaaa
+a
 ## Key Features
 * **No Dynamic Memory Allocation:** Completely avoids `malloc`/`free`, making it suitable for safety-critical embedded systems and MISRA C compliance.
 * **Struct Packing:** Uses `#pragma pack` to prevent memory alignment/padding issues across different architectures.
